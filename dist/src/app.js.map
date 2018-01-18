@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/app.js"],"names":["Header","React","Component"],"mappings":";;;;;;;;;;IAAMA,M;;;;;;;;;;;iCACM;AACJ;AACH;;;;EAHgBC,MAAMC,S","file":"app.js","sourcesContent":["class Header extends React.Component{\r\n    render(){\r\n        return \r\n    }\r\n}"]}

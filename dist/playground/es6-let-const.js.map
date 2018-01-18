@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../playground/es6-let-const.js"],"names":["nameLest","console","log","name"],"mappings":";;AAAA,IAAIA,WAAW,OAAf;AACAC,QAAQC,GAAR,YAAqBC,IAArB","file":"es6-let-const.js","sourcesContent":["let nameLest = \"Phani\";\r\nconsole.log(`Name: ${name}`);"]}
