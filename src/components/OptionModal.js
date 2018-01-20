@@ -7,11 +7,14 @@ const OptionModal = (props)=> {
             isOpen={!!props.selectedOption}
             onRequestClose={props.clearPick}
             contentLabel={"Selected Option"}//this will not show up in the browser
+            closeTimeoutMS={200}
+            className={"modal"}
         >
             {/*content*/}
-            <h3>Selected Option</h3>
-            {props.selectedOption && <p>{props.selectedOption}</p>}
-            <button onClick={props.clearPick}>Okay</button>
+            <h3 className={"modal__title"}>Selected Option</h3>
+
+            {props.selectedOption && <p className={"modal__body"}>{props.selectedOption}</p>}
+            <button className={"button"} onClick={props.clearPick}>Okay</button>
            </Modal>
     )
 };

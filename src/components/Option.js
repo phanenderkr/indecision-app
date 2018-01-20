@@ -3,8 +3,12 @@ import React from 'react';
 //option react component
 const Option = (props) => {
     return(
-        <div>
-            {props.optionText}
+        <div className={"option"}>
+            <p className={"option__text"}>
+                {props.count+". "}
+                {props.optionText}
+            </p>
+
             <button
                 className={"button button--link"}
                 onClick={(e)=>{

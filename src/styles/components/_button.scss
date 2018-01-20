@@ -6,13 +6,21 @@
   color: white;
   font-weight: bold;
   font-size: $l-size;
-  margin-bottom: $xl-size;
+  margin: 0 0 $m-size 0;
+  //margin-bottom: $xl-size;
   padding: 2.4rem;
   width: 100%;
 }
 
 .big-button:disabled{
   opacity: 0.5;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  //margin: 0 0 $l-size 0;
+  .big-button{
+    margin: 0 0 $l-size 0;
+  }
 }
 
 //Button
@@ -31,3 +39,4 @@
   color: $off-white;
   padding: 0;
 }
+
