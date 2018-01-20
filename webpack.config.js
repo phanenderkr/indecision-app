@@ -12,7 +12,7 @@ module.exports={
             test: /\.js$/,//what type of files you want to run this rule on
             exclude: /node_modules/
         },{
-            test:/\.scss$/,
+            test:/\.s?css$/,
             use: [
                 "style-loader",
                 "css-loader",
