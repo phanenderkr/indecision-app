@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "Phani",
   "license": "MIT",
+
   "scripts": {
     "serve": "live-server public/",
     "build": "webpack",
